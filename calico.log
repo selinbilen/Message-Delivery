@@ -1,0 +1,338 @@
+starting test init
+running command: rm -f hw3
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test build
+running command: g++ -Wall -Werror main.cpp -o hw3
+  expecting (4s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case1
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5[ 
+]*"
+  received: "Traversing:0 5 
+"
+  expecting (2s): "[ 
+]*Message:this is a message To:0 5 mh_13[ 
+]*"
+  received: "Message:this is a message To:0 5 mh_13
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case2
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5 2 7 9 12 6 16 3[ 
+]*"
+  received: "
+Traversing:0 5 2 7 9 12 6 16 3 
+"
+  expecting (2s): "[ 
+]*Message:this is another message To:0 3 mh_8[ 
+]*"
+  received: "Message:this is another message To:0 3 mh_8
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case3
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5 2 7 9[ 
+]*"
+  received: "
+Traversing:0 5 2 7 9 "
+  expecting (2s): "[ 
+]*Message:message3 To:0 9 mh_26[ 
+]*"
+  received: " 
+Message:message3 To:0 9 mh_26
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case4
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5 2 7 9 12 6 16 3[ 
+]*"
+  received: "
+Traversing:0 5 2 7 9 12 6 16 3 
+"
+  expecting (2s): "[ 
+]*Can not be reached the mobile host mh_120 at the moment[ 
+]*"
+  received: " 
+Can not be reached the mobile host mh_120 at the moment
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case5
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5 2 7[ 
+]*"
+  received: "
+Traversing:0 5 2 7 "
+  expecting (2s): "[ 
+]*Message:message5 To:0 5 7 mh_27[ 
+]*"
+  received: " 
+Message:message5 To:0 5 7 mh_27
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case6
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5 2 7 9 12 6[ 
+]*"
+  received: "
+Traversing:0 5 2 7 9 12 6 "
+  expecting (2s): "[ 
+]*Message:message6 To:0 12 6 mh_6[ 
+]*"
+  received: " 
+Message:message6 To:0 12 6 mh_6
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test init
+running command: rm -f hw3
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test build
+running command: g++ -Wall -Werror main.cpp -o hw3
+  expecting (4s): _EOF_
+  received: _EOF_
+exit status: 1 (expected 0)
+starting test init
+running command: rm -f hw3
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test build
+running command: g++ -Wall -Werror main.cpp -o hw3
+  expecting (4s): _EOF_
+  received: _EOF_
+exit status: 1 (expected 0)
+starting test init
+running command: rm -f hw3
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test build
+running command: g++ -Wall -Werror main.cpp -o hw3
+  expecting (4s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case1
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5[ 
+]*"
+  received: "Traversing:0 5 
+"
+  expecting (2s): "[ 
+]*Message:this is a message To:0 5 mh_13[ 
+]*"
+  received: "Message:this is a message To:0 5 mh_13
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case2
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5 2 7 9 12 6 16 3[ 
+]*"
+  received: "
+Traversing:0 5 2 7 9 12 6 16 3 
+"
+  expecting (2s): "[ 
+]*Message:this is another message To:0 3 mh_8[ 
+]*"
+  received: "Message:this is another message To:0 3 mh_8
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case3
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5 2 7 9[ 
+]*"
+  received: "
+Traversing:0 5 2 7 9 "
+  expecting (2s): "[ 
+]*Message:message3 To:0 9 mh_26[ 
+]*"
+  received: " 
+Message:message3 To:0 9 mh_26
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case4
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5 2 7 9 12 6 16 3[ 
+]*"
+  received: "
+Traversing:0 5 2 7 9 12 6 16 3 
+"
+  expecting (2s): "[ 
+]*Can not be reached the mobile host mh_120 at the moment[ 
+]*"
+  received: " 
+Can not be reached the mobile host mh_120 at the moment
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case5
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5 2 7[ 
+]*"
+  received: "
+Traversing:0 5 2 7 "
+  expecting (2s): "[ 
+]*Message:message5 To:0 5 7 mh_27[ 
+]*"
+  received: " 
+Message:message5 To:0 5 7 mh_27
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case6
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5 2 7 9 12 6[ 
+]*"
+  received: "
+Traversing:0 5 2 7 9 12 6 "
+  expecting (2s): "[ 
+]*Message:message6 To:0 12 6 mh_6[ 
+]*"
+  received: " 
+Message:message6 To:0 12 6 mh_6
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test init
+running command: rm -f hw3
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test build
+running command: g++ -Wall -Werror main.cpp -o hw3
+  expecting (4s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case1
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5[ 
+]*"
+  received: "Traversing:0 5 
+"
+  expecting (2s): "[ 
+]*Message:this is a message To:0 5 mh_13[ 
+]*"
+  received: "Message:this is a message To:0 5 mh_13
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case2
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5 2 7 9 12 6 16 3[ 
+]*"
+  received: "
+Traversing:0 5 2 7 9 12 6 16 3 
+"
+  expecting (2s): "[ 
+]*Message:this is another message To:0 3 mh_8[ 
+]*"
+  received: "Message:this is another message To:0 3 mh_8
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case3
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5 2 7 9[ 
+]*"
+  received: "
+Traversing:0 5 2 7 9 "
+  expecting (2s): "[ 
+]*Message:message3 To:0 9 mh_26[ 
+]*"
+  received: " 
+Message:message3 To:0 9 mh_26
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case4
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5 2 7 9 12 6 16 3[ 
+]*"
+  received: "
+Traversing:0 5 2 7 9 12 6 16 3 
+"
+  expecting (2s): "[ 
+]*Can not be reached the mobile host mh_120 at the moment[ 
+]*"
+  received: " 
+Can not be reached the mobile host mh_120 at the moment
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case5
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5 2 7[ 
+]*"
+  received: "
+Traversing:0 5 2 7 "
+  expecting (2s): "[ 
+]*Message:message5 To:0 5 7 mh_27[ 
+]*"
+  received: " 
+Message:message5 To:0 5 7 mh_27
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
+starting test case6
+running command: ./hw3 Network.txt Messages.txt
+  expecting (2s): "[ 
+]*Traversing:0 5 2 7 9 12 6[ 
+]*"
+  received: "
+Traversing:0 5 2 7 9 12 6 "
+  expecting (2s): "[ 
+]*Message:message6 To:0 12 6 mh_6[ 
+]*"
+  received: " 
+Message:message6 To:0 12 6 mh_6
+"
+  expecting (2s): _EOF_
+  received: _EOF_
+exit status: 0 (expected 0)
